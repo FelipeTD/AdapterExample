@@ -1,3 +1,7 @@
+import connections.MySQLAdapter;
+import connections.MySQLCommands;
+import connections.OracleCommands;
+
 public class Main {
 
     public static void main(String[] args) {

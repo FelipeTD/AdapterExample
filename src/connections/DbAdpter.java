@@ -1,3 +1,5 @@
+package connections;
+
 public interface DbAdpter {
 
     void insert();

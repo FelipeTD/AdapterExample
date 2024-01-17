@@ -1,3 +1,5 @@
+package connections;
+
 public class MySQLAdapter implements DbAdpter {
 
     private MySQLCommands mysql;

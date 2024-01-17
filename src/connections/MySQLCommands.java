@@ -1,3 +1,5 @@
+package connections;
+
 public class MySQLCommands {
 
     public void insertMySQL() {

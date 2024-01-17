@@ -1,5 +1,4 @@
-# AdapterExample
-Projeto de exemplo de trabalho com Adapter
+# Projeto de exemplo para utilização de Adapter
 
 ## Adapter
 - Faz parte do GoF
@@ -19,5 +18,15 @@ Projeto de exemplo de trabalho com Adapter
 ### Exemplo
 - Client  
   - Target <interface> (insert, update, delete) 
-    - MySQLAdapter (insert, update, delete)
-      - MySQLCommands(insertMySQL, updateMySQL, deleteMySQL)
+    - connections.MySQLAdapter (insert, update, delete)
+      - connections.MySQLCommands(insertMySQL, updateMySQL, deleteMySQL)
+
+### Referências e links utilizados:
+- Textos do README.md foram retirados do vídeo: 
+  - Design Pattern Adapter na Prática 
+    - Disponível em https://www.youtube.com/watch?v=5AiiHFizQWY&list=PL5aY_NrL1rjtP1GVk1lxifkeob1F09L4p&index=3
+
+- Exemplo de Código que está em connections também foi retirado do vídeo
+- 
+
+
